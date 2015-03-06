@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h6 {
+    font-family: "Sansita One", Georgia, serif;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .09px;
+}
+
+.media-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 12pt;
+
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.1pt;
+    letter-spacing: .09px;
+    font-weight: bold;
+}
