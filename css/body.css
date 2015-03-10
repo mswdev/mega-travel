@@ -16,6 +16,10 @@ h3 {
 	text-align: left;
 }
 
+.jumbotron {
+    margin-top: 15px;   
+}
+
 .caption {
 	position: relative;
 	top: -5px;
@@ -163,32 +167,32 @@ button {
 .logo {
     width: 50%;   
 }
-
+@media (max-width: 767px) {
+    .navbar-brand > img { 
+        margin-top: 20px;
+    }
+}
 @media (max-width: 800px) {
-    
-
     .body {
         margin-top: 0%; 
     }
-    
     .navbar-inverse {
-        height: 0%;   
+        height: 64px;   
     }
-    
     .navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-      position: relative;
-    top: 0px;
+    .navbar-inverse .navbar-form {
+        position: relative;
+        top: 0px;
 }
-    
     .navbar-brand > img { 
-            position: relative;
-    top: -15px;
+        position: relative;
+        top: -32px;
+        z-index: 1;
+        width: 77%;
     }
-    
     .navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form { 
-    background-color: #222;
+    .navbar-inverse .navbar-form { 
+    background-color: #09101C;
 }
     
 }
@@ -340,7 +344,72 @@ header-logo {
 	transform: rotateY(180deg);
 }
 
+/*RESPONSIVE CSS*/
+/*RESPONSIVE CSS*/
+@media (max-width: 1199px) {
+    .responsive-packages {
+        font-size: 14pt;   
+    }
+    .fluid {
+        width: 50%; 
+    }
+    .pinfo-fluid {
+        position: relative;
+        top: -310px;
+        left: 500px;
+    }
+    .pimages-fluid {
+        position: relative;
+        top: 50px;
+    }
+}
 
+@media (max-width: 991px) {
+    .responsive-packages {
+    font-size: 16pt;   
+    }
+    .fluid {
+        width: 55%; 
+    }
+    .pinfo-fluid {
+        position: relative;
+        top: -215px;
+        left: 400px;
+    }
+    .pimages-fluid {
+        position: relative;
+        top: 90px;
+        left: -40px;
+    }
+}
+
+@media (max-width: 920px) {
+    .fluid {
+        width: 45%; 
+    }
+    .pinfo-fluid {
+        position: relative;
+        top: -160px;
+        left: 360px;
+    }
+    .pimages-fluid {
+        position: relative;
+        top: 120px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .about-css {
+        padding-top: 3%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .about-css {
+        padding-top: 10%;   
+    }
+}
 
 
 
