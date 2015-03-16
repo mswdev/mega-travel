@@ -1,0 +1,20 @@
+#priceCheck1 {
+        display: none;
+}
+#priceCheck2 {
+        display: none;
+}
+#priceCheck3 {
+        display: none;
+}
+#priceCheck4 {
+        display: none;
+}
+#priceCheck5 {
+        display: none;
+}
+
+.priceCheck {
+    margin-bottom: 50px;
+    text-align: center;
+}
