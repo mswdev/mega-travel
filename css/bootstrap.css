@@ -4320,7 +4320,6 @@ border-radius: 5px;
   border-color: #101010;
   position: relative;
     top: 46px;
-  float: left;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
