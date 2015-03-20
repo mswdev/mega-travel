@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-   <title>MegaTravel - Miami Package</title>
-   <meta charset="utf-8">
+   <title>Miami - Mega Travel</title>
+   <meta charset="utf-8" name="description" content="This is one of Mega Travels packages that consists of a city, multiple hotels, car rentals, and plane tickets. All packages also include pricing and interactive package pricing to help you figure the cost if your trip.">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="css/bootstrap.css" rel="stylesheet">
    <link href="css/body.css" rel="stylesheet">
@@ -217,7 +217,11 @@
 <hr class="hr-style"/>
     <div class="priceCheck">
         <input type="button" class="btn btn-default" name="1star" value="Five Star" onclick="vanish('priceCheck1')"/>
-    </div>   
+        <input type="button" class="btn btn-default" name="2star" value="Four Star" onclick="vanish('priceCheck2')"/>
+        <input type="button" class="btn btn-default" name="3star" value="Three Star" onclick="vanish('priceCheck3')"/>
+        <input type="button" class="btn btn-default" name="4star" value="Two Star" onclick="vanish('priceCheck4')"/>
+        <input type="button" class="btn btn-default" name="5star" value="One Star" onclick="vanish('priceCheck5')"/>    
+    </div>
         <div id="priceCheck1">
         
         <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
@@ -240,21 +244,8 @@
             </form>
         </div> 
         
-    </div>
-    <div class="priceCheck">
-        <input type="button" class="btn btn-default" name="2star" value="Four Star" onclick="vanish('priceCheck2')"/>
-    </div>       
-    <div class="priceCheck">    
-        <input type="button" class="btn btn-default" name="3star" value="Three Star" onclick="vanish('priceCheck3')"/>
-    </div>       
-    <div class="priceCheck">
-        <input type="button" class="btn btn-default" name="4star" value="Two Star" onclick="vanish('priceCheck4')"/>
-    </div>       
-    <div class="priceCheck">
-        <input type="button" class="btn btn-default" name="5star" value="One Star" onclick="vanish('priceCheck5')"/>    
-    </div>
+    </div>   
     
-
     <div id="priceCheck2">
         
           <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
@@ -340,6 +331,7 @@
         
     </div>
 </div>
+</div>   
 
 
 
