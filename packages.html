@@ -54,74 +54,51 @@
             <h2>Sort</h2>
                 <hr class="hr-style">
             <div class="row">
-          <div class="col-sm-6 col-md-4">
-        <form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Destination Search</label>
-    <input type="search" class="form-control" id="exampleInputEmail1" placeholder="Enter destination">
-      <br>
-  </div>
-</form>
-</div>
-
-
-<div class="col-sm-6 col-md-4">
-    
-    <h5 class="bold">Climate</h5>
-<div class="btn-group sort-move" role="group" aria-label="...">
-  <button type="button" class="btn btn-default">Hot</button>
-  <button type="button" class="btn btn-default">Mild</button>
-  <button type="button" class="btn btn-default">Cold</button>
-</div>
-    </div>
-    <div class="col-sm-6 col-md-4 sort-left">
-    <h5 class="bold">Setting</h5>
-<div class="btn-group sort-move" role="group" aria-label="...">
-  <button type="button" class="btn btn-default">Hot</button>
-  <button type="button" class="btn btn-default">Mild</button>
-  <button type="button" class="btn btn-default">Cold</button>
-</div>
-</div>
-    
+                
 <div class="col-sm-12 col-md-12 sort-space">
 <div class="row">
       <h5 class="bold">Alphabetical</h5>
 <div class="btn-group sort-move" role="group" aria-label="...">
-  <button type="button" class="btn btn-default">A</button>
-  <button type="button" class="btn btn-default">B</button>
-  <button type="button" class="btn btn-default">C</button>
-  <button type="button" class="btn btn-default">D</button>
-  <button type="button" class="btn btn-default">E</button>
-  <button type="button" class="btn btn-default">F</button>
-  <button type="button" class="btn btn-default">G</button>
-  <button type="button" class="btn btn-default">H</button>
-  <button type="button" class="btn btn-default">I</button>
-  <button type="button" class="btn btn-default">J</button>
-  <button type="button" class="btn btn-default">K</button>
-  <button type="button" class="btn btn-default">L</button>
-  <button type="button" class="btn btn-default">M</button>
-  <button type="button" class="btn btn-default">N</button>
-  <button type="button" class="btn btn-default">O</button>
-  <button type="button" class="btn btn-default">P</button>
-  <button type="button" class="btn btn-default">Q</button>
-  <button type="button" class="btn btn-default">R</button>
-  <button type="button" class="btn btn-default">S</button>
-  <button type="button" class="btn btn-default">T</button>
-  <button type="button" class="btn btn-default">U</button>
-  <button type="button" class="btn btn-default">V</button>
-  <button type="button" class="btn btn-default">W</button>
-  <button type="button" class="btn btn-default">X</button>
-  <button type="button" class="btn btn-default">Y</button>
-  <button type="button" class="btn btn-default">Z</button>
+  <input type="button" class="btn btn-default" value="All" onClick="showAll()"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="A"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="B"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="C"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="D"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="E"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="F"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="G"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="H"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="I"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="J"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="K"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="L"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="M"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="N"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="O"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="P"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="Q"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="R"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="S"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="T"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="U"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="V"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="W"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="X"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="Y"></input>
+  <input type="button" class="btn btn-default alphabetSort" value="Z"></input>
 </div>
 </div>
 </div>
-    
-                
-                
-                
-                
-                
+
+<div class="col-sm-6 col-md-4">
+    <h5 class="bold">Climate</h5>
+<div class="btn-group sort-move" role="group" aria-label="...">
+  <input type="button" class="btn btn-default" value="Hot"></input>
+  <input type="button" class="btn btn-default" value="Mild"></input>
+  <input type="button" class="btn btn-default" value="Cold"></input>
+</div>
+</div>
+
 </div>
 </div>   
 </div>
@@ -153,10 +130,7 @@
 
       <hr class="hr-style">
 
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Miami, Florida</h3>
 
 
@@ -186,7 +160,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Barcelona, Spain</h3>
 
 
@@ -217,7 +191,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Rome, Italy</h3>
 
 
@@ -246,17 +220,13 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 -->
       <!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 -->
       <!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 -->
       <!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 --><!-- ROW 2 -->
 
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Orlando, Florida</h3>
 
 
@@ -286,7 +256,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Sydney, Australia</h3>
 
 
@@ -316,7 +286,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Paris, France</h3>
 
 
@@ -345,17 +315,13 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 -->
       <!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 -->
       <!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 -->
       <!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 --><!-- ROW 3 -->
 
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">London, France</h3>
 
 
@@ -385,7 +351,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Venice, Italy</h3>
 
 
@@ -415,7 +381,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Manhattan, New York</h3>
 
 
@@ -441,8 +407,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 -->
       <!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 -->
       <!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 -->
@@ -451,9 +415,7 @@
       <!-- ROW 4 --><!-- ROW 4 --><!-- ROW 4 -->
 
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Cape Town, South Africa</h3>
 
 
@@ -482,7 +444,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Las Vegas, Nevada</h3>
 
 
@@ -511,7 +473,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">San Diego, California</h3>
 
 
@@ -538,8 +500,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 -->
       <!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 -->
       <!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 --><!-- ROW 5 -->
@@ -550,9 +510,8 @@
       <!-- ROW 5 -->
 
 
-      <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Maldives, Indian Ocean</h3>
 
 
@@ -580,7 +539,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Barrier Reef, Australia</h3>
 
 
@@ -610,7 +569,7 @@
           </div>
 
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 package">
             <h3 class="responsive-packages">Hawaii, United States</h3>
 
 
@@ -639,7 +598,6 @@
           </div>
         </div>
       </div>
-      </div>
     </div>
       <!-- ROW 6 --><!-- ROW 6 --><!-- ROW 6 --><!-- ROW 6 -->
       <!-- ROW 6 --><!-- ROW 6 --><!-- ROW 6 --><!-- ROW 6 -->
@@ -658,6 +616,7 @@
       </p>
    </div>
   </div>
+  <script src="js/sort.js" type="text/javascript"></script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> <script src="js/bootstrap.js"></script> <script src="js/npm.js"></script> <script src="js/tooltip.js"></script>
 </body>
 </html>

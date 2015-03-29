@@ -1406,6 +1406,10 @@ pre code {
   .container {
     width: 1170px;
   }
+  .row {
+  }
+  .exchange {
+  }
 }
 .container-fluid {
   padding-right: 15px;

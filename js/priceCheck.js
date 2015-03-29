@@ -3,3 +3,6 @@ function vanish(elementName) {
     if (el.style.display == "block") el.style.display = "none";
     else el.style.display = "block";
 }
+
+
+

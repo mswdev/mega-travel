@@ -7,10 +7,12 @@
    <link href="css/body.css" rel="stylesheet">
    <link href="css/maintheme.css" rel="stylesheet">
    <link href="css/jasny-bootstrap.css" rel="stylesheet">
+   <link href="css/priceCheck.css" rel="stylesheet">
    <link href="http://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet" type="text/css">
    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
    <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <script src="js/priceCheck.js" type="text/javascript"></script>
 </head>
 <body> 
    <nav class="navbar navbar-inverse navbar-new navbar-fixed-top">
@@ -211,12 +213,18 @@
 
 
 <div class="container">
-<h2 class="top-move">Interactive Package Pricing</h2>
-<hr class="hr-style">
-<div class="container">
-<div class="row">
-<div class="container top-row">
-<div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
+<h2 class="top-move">Interactive Hotel Pricing</h2>
+<hr class="hr-style"/>
+    <div class="priceCheck">
+        <input type="button" class="btn btn-default" name="1star" value="Five Star" onclick="vanish('priceCheck1')"/>
+        <input type="button" class="btn btn-default" name="2star" value="Four Star" onclick="vanish('priceCheck2')"/>
+        <input type="button" class="btn btn-default" name="3star" value="Three Star" onclick="vanish('priceCheck3')"/>
+        <input type="button" class="btn btn-default" name="4star" value="Two Star" onclick="vanish('priceCheck4')"/>
+        <input type="button" class="btn btn-default" name="5star" value="One Star" onclick="vanish('priceCheck5')"/>    
+    </div>
+        <div id="priceCheck1">
+        
+        <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                               <span class="sr-only"></span>
                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -226,68 +234,43 @@
                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                            </div>
                         </div>
-<p style="text-align: center;">Nights stay</p>
-<form name="fivestar">
-<input class="input_button" type="text" size="20" maxlength="3" name="input"/>
-    <p style="text-align: center;">Total price</p>
-<input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
-    <br>
-<input class="input_button2" type="button" value="Enter" OnClick="fivestar.output.value = fivestar.input.value *   406"/>
-</form>
-</div>
-<div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
-                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                              <span class="sr-only"></span>
+                <p style="text-align: center;">Nights stay</p>
+            <form name="fivestar">
+                <input class="input_button" type="text" size="20" maxlength="3" name="input"/>
+                <p style="text-align: center;">Total price</p>
+                <input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
+                <br>
+                <input class="input_button2" type="button" value="Enter" OnClick="fivestar.output.value = fivestar.input.value *   520"/>
+            </form>
+        </div> 
+        
+    </div>   
+    
+    <div id="priceCheck2">
+        
+          <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
+                          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                  <span class="sr-only"></span>
+                           <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                           </div>
+                             <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                         </div>
-<p style="text-align: center;">Nights stay</p>
-<form name="fourstar">
-<input class="input_button" type="text" size="20" maxlength="3" name="input"/>
-    <p style="text-align: center;">Total price</p>
-<input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
-    <br>
-<input class="input_button2" type="button" value="Enter" OnClick="fourstar.output.value = fourstar.input.value *   340"/>
-</form>
-</div>
-</div>
-<div class="row">
-<div class="container bottom-row">
-<div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
-                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                              <span class="sr-only"></span>
-                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                           </div>
                         </div>
-<p style="text-align: center;">Nights stay</p>
-<form name="onestar">
-<input class="input_button" type="text" size="20" maxlength="3" name="input"/>
-    <p style="text-align: center;">Total price</p>
-<input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
-    <br>
-<input class="input_button2" type="button" value="Enter" OnClick="onestar.output.value = onestar.input.value *   138"/>
-</form>
-</div>
-<div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
-                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                              <span class="sr-only"></span>
-                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                           </div>
-                        </div>
-<p style="text-align: center;">Nights stay</p>
-<form name="twostar">
-<input class="input_button" type="text" size="20" maxlength="3" name="input"/>
-    <p style="text-align: center;">Total price</p>
-<input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
-    <br>
-<input class="input_button2" type="button" value="Enter" OnClick="twostar.output.value = twostar.input.value *   193"/>
-</form>
-</div>
-<div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
+              <p style="text-align: center;">Nights stay</p>
+                <form name="fourstar">
+                <input class="input_button" type="text" size="20" maxlength="3" name="input"/>
+                    <p style="text-align: center;">Total price</p>
+                <input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
+                    <br>
+                <input class="input_button2" type="button" value="Enter" OnClick="fourstar.output.value = fourstar.input.value *   423"/>
+                </form>
+        </div>
+        
+    </div>    
+    <div id="priceCheck3">
+        
+                <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                               <span class="sr-only"></span>
                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -301,12 +284,52 @@
     <p style="text-align: center;">Total price</p>
 <input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
     <br>
-<input class="input_button2" type="button" value="Enter" OnClick="threestar.output.value = threestar.input.value *   224"/>
+<input class="input_button2" type="button" value="Enter" OnClick="threestar.output.value = threestar.input.value *   264"/>
 </form>
 </div>
+        
+        
+        
+    </div>    
+    <div id="priceCheck4">
+        
+        <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                              <span class="sr-only"></span>
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                           </div>
+                        </div>
+            <p style="text-align: center;">Nights stay</p>
+            <form name="twostar">
+                <input class="input_button" type="text" size="20" maxlength="3" name="input"/>
+                <p style="text-align: center;">Total price</p>
+                <input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
+    <br>
+<input class="input_button2" type="button" value="Enter" OnClick="twostar.output.value = twostar.input.value *   229"/>
+</form>
 </div>
-</div>
-</div>
+        
+    </div>    
+    <div id="priceCheck5">
+        
+        <div class="col-lg-4 pull-bottom">                                            <div class="progress info-width">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                              <span class="sr-only"></span>
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                           </div>
+                        </div>
+            <p style="text-align: center;">Nights stay</p>
+            <form name="onestar">
+                <input class="input_button" type="text" size="20" maxlength="3" name="input"/>
+                <p style="text-align: center;">Total price</p>
+                <input class="input_button" type="text" name="output" size="20" maxlength="3" readonly="readonly" />
+                <br>
+                <input class="input_button2" type="button" value="Enter" OnClick="onestar.output.value = onestar.input.value *   92"/>
+            </form>
+        </div>
+        
+    </div>
 </div>
 </div>
 
