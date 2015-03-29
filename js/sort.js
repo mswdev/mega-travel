@@ -20,3 +20,17 @@ function showAll() {
         paras[j].style.display = "inherit";
     }
 }
+
+
+
+var hot = document.getElementsByClassName("hot");
+var mild = document.getElementsByClassName("mild");
+var cold = document.getElementsByClassName("cold");
+
+function hot() {
+    if(hot = hot) {
+    hot.style.display = "inherit";
+    } else {
+    hot.style.display = "none";   
+    }
+}
