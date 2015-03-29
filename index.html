@@ -203,7 +203,8 @@ js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=yourappid";
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'megatravel',
-        clientId: 'MegaTravel'
+        clientId: 'MegaTravel',
+        sortBy: 'most-recent',
     });
     feed.run();
 </script>
