@@ -217,11 +217,13 @@
 <h2 class="top-move">Interactive Hotel Pricing</h2>
 <hr class="hr-style"/>
     <div class="priceCheck">
+                <a href="#bottom">
         <input type="button" class="btn btn-default" name="1star" value="Five Star" onclick="vanish('priceCheck1')"/>
         <input type="button" class="btn btn-default" name="2star" value="Four Star" onclick="vanish('priceCheck2')"/>
         <input type="button" class="btn btn-default" name="3star" value="Three Star" onclick="vanish('priceCheck3')"/>
         <input type="button" class="btn btn-default" name="4star" value="Two Star" onclick="vanish('priceCheck4')"/>
-        <input type="button" class="btn btn-default" name="5star" value="One Star" onclick="vanish('priceCheck5')"/>    
+        <input type="button" class="btn btn-default" name="5star" value="One Star" onclick="vanish('priceCheck5')"/>   
+                </a>   
     </div>
         <div id="priceCheck1">
         
@@ -363,5 +365,6 @@
   $('#weatherApp').weatherfeed(['USFL0316']);
 });
     </script>
+    <a name="bottom"></a>
 </body>
 </html>
