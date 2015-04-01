@@ -26,6 +26,8 @@ nav {
     font-weight: bold;
 }
 
-.fb-comments {
+.fbComments {
     margin: auto;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #333;
 }
