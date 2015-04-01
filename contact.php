@@ -54,49 +54,66 @@
 <section class="container">
     <div class="jumbotron">
         <div class="contact-container">
-            <h2 class="text-center">Contact Page</h2>
+            <h2 class="">Contact Page</h2>
             <hr class="hr-style"/>
-            <form class="contact-form">
+            <form class="contact-form" action="mail.php" method="POST">
                 <div class="smallContainer">
                     <div class="contactLeft">
                         <h6>Name</h6>
                     </div>
-                        <input class="contact-input" type="text"></input>
+                        <input class="contact-input" name="name" type="text" required></input>
                 </div>
                 <div class="smallContainer">
                     <div class="contactLeft">
                         <h6>E-mail</h6>
                     </div>
-                        <input class="contact-input" type="text"></input>
+                        <input class="contact-input" name="email" type="text" required></input>
                 </div>
                 <div class="smallContainer">
                     <div class="contactLeft">
                         <h6>Subject</h6>
                     </div>
-                        <input class="contact-input" type="text"></input>
+                        <input class="contact-input" name="subject" type="text" required></input>
                 </div>
                 <div class="smallContainer">
                     <div class="contactLeft">
                         <h6>Your Message</h6>
                     </div>
-                        <textarea class="contact-textarea" rows="4"></textarea>
+                        <textarea class="contact-textarea" name="message" rows="6" required></textarea>
                 </div>
+    <input class="submit btn btn-default" type="submit" value="Send"></input>
             </form>
     
             <div class="contact-social">
                 <div class="contact-social-left">
+                    <a href="">
+                    <img src="images/social-buttons/Facebook.png" class="social-btn" name="facebook-social"/>
+                    </a>
+                    <a href="">
+                    <img src="images/social-buttons/Pinterest.png" class="social-btn" name="pinterest-social"/>
+                    </a>
+                    <a href="">
+                    <img src="images/social-buttons/Google-Plus.png" class="social-btn" name="googleplus-social"/>
+                    </a>
+                    <a href="">
+                    <img src="images/social-buttons/Twitter.png" class="social-btn" name="twitter-social"/>
+                    </a>
+                    <a href="">
+                    <img src="images/social-buttons/Instagram.png" class="social-btn" name="instgram-social"/>
+                    </a>
                 </div>
                 <div class="contact-social-right">
                     <h5>Mega Travel</h5>
                     <p>
                     <h5>1 (208) 446-4435</h5>
-                    <h5><a href="mailto:megatravel15@gmail.com">info@MegaTravel.co.nf</a></h5>
+                    <h5><a href="mailto:megatravel15@gmail.com">info@MegaTravel.org</a></h5>
                     </p>
-                    <h5>Coeur d'Alene, Idaho</h5>
-                    <h5>United States</h5>
+                    <h5>Coeur d'Alene, Idaho
+                        United States</h5>
                 </div>
             </div>
         </div>
+            <hr class="hr-style"/>
     </div>
 </section>
      

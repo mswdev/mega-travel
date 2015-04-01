@@ -1,5 +1,6 @@
 .contact-container {
     width: 800px;
+    height: 470px;
     margin: auto;
 }
 
@@ -14,6 +15,7 @@
     height: auto;
     background-color: #c1c1c1;
     padding: 0px;
+    border-radius: 6px;
 }
 
 .contactLeft {
@@ -26,7 +28,7 @@
 
 .contact-input {
     width: 250px;
-    height: 25px;
+    height: 30px;
     display: inline-block;
     background-color: #727272;
     clear: both;
@@ -37,8 +39,7 @@
     width: 250px;
     display: inline-block;
     background-color: #727272;
-    clear: both;
-    display: table-cell;
+    display: table;
     border: 0px;
     margin-bottom: -5px;
 }
@@ -49,18 +50,17 @@
 
 .contact-social {
     width: 375px;
-    height: 189px;
     margin-top: 10px;
     display: inline-block;
     background-color: #c1c1c1;
     float: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .contact-social-left {
     width: 114px;
-    height: 176px;
-    margin-left: 7px;
-    margin-top: 7px;
+    margin: 7px 0px 7px 7px;
     float: left;
     border: 1px solid #727272;
     border-right: none;
@@ -68,12 +68,20 @@
 
 .contact-social-right {
     width: 247px;
-    height: 176px;
-    margin-right: 7px;
-    margin-top: 7px;
+    height: 342px;
+    margin: 7px 7px 7px 0px;
     float: right;
     border: 1px solid #727272;
 }
+
+.social-btn {
+    height: 42px;
+    position: relative;
+    left: 30%;
+    margin: 13px 13px 13px 0%;
+}
+
+
 
 
 h6,
@@ -83,11 +91,19 @@ h5 {
 }
 
 h5 {
-    font-size: 12pt;
+    font-size: 17pt;
     font-weight: bolder;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 a {
     color: #ddd;
+}
+
+
+
+
+.submit {
+    margin: 15px 0px 0px 0px;
+    float: right;
 }
