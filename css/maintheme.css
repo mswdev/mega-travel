@@ -73,3 +73,15 @@ nav {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
+
+
+@media (max-width: 768px) {
+  .social-sidebar {
+    position: fixed;
+    top: 25%;
+    width: 60px;
+}
+  .social-button {
+    height: 35px;
+}
+}
