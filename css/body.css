@@ -367,7 +367,11 @@ header-logo {
 /*RESPONSIVE CSS*/
 /*RESPONSIVE CSS*/
 
-
+@media (max-width: 991px) {
+    .navbar-left {
+        font-size: 12pt;   
+    }
+}
 
 
 

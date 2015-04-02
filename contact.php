@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Packages - Mega Travel</title>
-   <meta charset="utf-8" name="description" content="The packages page for Mega Travel is where all the vacation packages are located. All the packages include 3 hotels, a popular travel location, and interactive package pricing to find out how much your trip will cost you.">
+   <title>Contact - Mega Travel</title>
+   <meta charset="utf-8" name="description" content="Our content page is where you can find all social media websites from Mega Travel as well as a contact form built into the website.">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/body.css" rel="stylesheet">
@@ -13,8 +13,16 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 <script src="//fast.eager.io/ayA0efOTaH.js"></script>
 </head>
-
 <body>
+<aside class="social-sidebar">
+    <ul class="social-list">
+        <li><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
+        <li><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
+        <li><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google-Plus.png" target="_blank"/></a></li>
+        <li><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
+        <li><a href="https://instagram.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Instagram.png"/></a></li>
+    </ul>
+</aside>  
    <nav class="navbar navbar-inverse navbar-new navbar-fixed-top">
       <div class="container">
          <div class="navbar-header">
@@ -29,18 +37,16 @@
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-left">
                <li class="nav-btn"><a class="first-link active" href="index.html">HOME</a>
-               <a href="index.html">HOME</a></li>
-                
-<!--
-               <li class="nav-btn"><a class="first-link" href="tours.html">TOURS</a>
-               <a href="tours.html">TOURS</a></li>
--->
-                
-               <li class="nav-btn active"><a class="first-link" href="packages.html">PACKAGES</a>
-               <a href="packages.html">PACKAGES</a></li>
+               <a href="index.html">HOME</a></li>        
+               <li class="nav-btn"><a class="first-link" href="packages.html">PACKAGES</a>
+               <a href="packages.html">PACKAGES</a>
+</li>
                 
                <li class="nav-btn"><a class="first-link" href="about.html">ABOUT</a>
                <a href="about.html">ABOUT</a></li>
+               <li class="nav-btn active"><a class="first-link" href="contact.php">CONTACT</a>
+               <a href="contact.php">CONTACT</a>
+</li>
             </ul>
          </div>
       </div>
@@ -56,7 +62,7 @@
         <div class="contact-container">
             <h2 class="">Contact Page</h2>
             <hr class="hr-style"/>
-            <form class="contact-form" action="mail.php" method="POST">
+            <form class="contact-form" action="../php/mail.php" method="POST">
                 <div class="smallContainer">
                     <div class="contactLeft">
                         <h6>Name</h6>
@@ -86,20 +92,20 @@
     
             <div class="contact-social">
                 <div class="contact-social-left">
-                    <a href="">
+                    <a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank">
                     <img src="images/social-buttons/Facebook.png" class="social-btn" name="facebook-social"/>
                     </a>
-                    <a href="">
+                    <a href="https://www.pinterest.com/megatravel15/" target="_blank">
                     <img src="images/social-buttons/Pinterest.png" class="social-btn" name="pinterest-social"/>
                     </a>
-                    <a href="">
+                    <a href="https://plus.google.com/u/1/" target="_blank">
                     <img src="images/social-buttons/Google-Plus.png" class="social-btn" name="googleplus-social"/>
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/MegaTravel2015" target="_blank">
                     <img src="images/social-buttons/Twitter.png" class="social-btn" name="twitter-social"/>
                     </a>
-                    <a href="">
-                    <img src="images/social-buttons/Instagram.png" class="social-btn" name="instgram-social"/>
+                    <a href="https://instagram.com/megatravel15//" target="_blank">
+                    <img src="images/social-buttons/Instagram.png" class="social-btn" name="instagram-social"/>
                     </a>
                 </div>
                 <div class="contact-social-right">

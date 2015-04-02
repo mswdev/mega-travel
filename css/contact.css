@@ -48,6 +48,8 @@
 
 
 
+
+
 .contact-social {
     width: 375px;
     margin-top: 10px;
@@ -81,7 +83,9 @@
     margin: 13px 13px 13px 0%;
 }
 
-
+.social-btn:hover {
+    opacity: .5;
+}
 
 
 h6,
@@ -106,4 +110,23 @@ a {
 .submit {
     margin: 15px 0px 0px 0px;
     float: right;
+}
+
+
+
+@media (max-width: 1000px) {
+  .contact-container {
+    width: 400px;
+    height: 800px;
+}
+    .smallContainer {
+    width: auto;
+}
+    .contact-social {
+    float: none;
+    clear: both;
+}
+    h2 {
+     text-align: center;  
+}
 }
