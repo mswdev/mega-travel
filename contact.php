@@ -16,7 +16,7 @@
 <body>
 <aside class="social-sidebar">
     <ul class="social-list">
-        <li><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
+        <li><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
         <li><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
         <li><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google-Plus.png" target="_blank"/></a></li>
         <li><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
